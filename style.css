@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom right;
+    text-align-last:center;
+
+}
+h2{
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 500%;
+    text-align: center;
+}
+.numberChoosing{
+    color: #000;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.liBtn{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 20%;
+    transition: 0.2s ease all;
+    
+}
+.liBtn:hover{
+    background-color: #000;
+    color: #fff;
+}
+.btn_b{
+    width: 100px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 5%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.btn_b:hover{
+    background-color: #ddd;
+    color: #000;
+    font-weight: 500;
+}
+.show_img{
+    width: 200px;
+    height: 200px;
+}
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    body{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(./cute-panda-bear-flat-cartoon-style_1308-111584.webp);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom right;
+        text-align-last:center;
+        position: relative;
+    }
+    .container{
+        position: absolute;
+    }
+    h2{
+        font-size: 60px;
+    }
+}
